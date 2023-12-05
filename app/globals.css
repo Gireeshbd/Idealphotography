@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins:wght@200&display=swap");
 
 body {
-  font-family: "Montserrat" Arial, Helvetica, sans-serif;
+  font-family: "Hedvig Letters Serif", serif;
+  font-family: "Poppins", sans-serif;
 }
 @layer base {
   :root {
@@ -83,4 +85,9 @@ body {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+}
+
+@font-face {
+  font-family: "Gireesh";
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200&display=swap");
 }

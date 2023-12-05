@@ -15,11 +15,14 @@ module.exports = {
         "2xl": "1400px",
       },
     },
-
+    variants: {
+      fill: ["hover", "focus"], // this line does the trick
+    },
     extend: {
       fontFamily: {
         mont: ["Montserrat", "Arial", "sans-serif"],
       },
+
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

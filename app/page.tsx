@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "../public/logoeventsIdeal.png";
+import Logo from "../public/logoIdealevents.png";
 import bg from "../public/home.png";
 import Link from "next/link";
 import arrow from "../public/arrow.png";
