@@ -22,4 +22,4 @@ jobs:
         run: npm install -g ftp-sync
 
       - name: Deploy to FTP
-        run: ftp-sync -r ./path/to/local/files -e "open -u ${{ secrets.FTP_USER }} -p ${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }}; mirror -R ./ bye"
+        run: ftp-sync -r ./_next-e "open -u ${{ secrets.FTP_USER }} -p ${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }}; mirror -R ./_next bye"
